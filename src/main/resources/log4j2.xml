@@ -18,7 +18,7 @@
                 <Pattern>${LOG_PATTERN}</Pattern>
             </PatternLayout>
             <Policies>
-                <TimeBasedTriggeringPolicy interval="1" />
+                <TimeBasedTriggeringPolicy interval="5" />
                 <SizeBasedTriggeringPolicy size="150MB" />
             </Policies>
             <DefaultRolloverStrategy max="100"/>
